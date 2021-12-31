@@ -7,8 +7,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "element-plus": "^1.3.0-beta.1",
     "vue": "^3.2.25"
   },
+  "license": "SIC",
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",
     "typescript": "^4.4.4",
