@@ -1,5 +1,11 @@
 <template>
-  <div></div>
+  <el-breadcrumb class="app-breadcrumb" separator="/">
+      <transition-group>
+          <el-breadcrumb-item>
+            <span>xxx</span>
+          </el-breadcrumb-item>
+      </transition-group>
+  </el-breadcrumb>
 </template>
 
 <script lang="ts">

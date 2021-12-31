@@ -1,12 +1,14 @@
 import {createApp} from 'vue';
 import App from './App.vue';
+// import router from './'
+
+//element-plus
+// import ElementPlus from 'element-plus';
+// import 'element-plus/dist/index.css';
 
 const app = createApp(App);
 
-//element-plus
-import ElementPlus from 'element-plus';
-import 'element-plus/dist/index.css';
+app
+  // .use(ElementPlus)
+  .mount('#app');
 
-app.use(ElementPlus);
-
-createApp(App).mount('#app');
